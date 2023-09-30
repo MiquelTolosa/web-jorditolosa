@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head_tags.html %}
+        <title>
+            {{ page.title }}
+        </title>
+    </head>
+    <body class="homepage">
+        <div id="page-wrapper">
+            {% include header_menu.html %}
+            {{ content }}
+        </div>
+        {% include footer_scripts.html %}
+    </body>
+</html>

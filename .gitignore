@@ -1,0 +1,21 @@
+# Jekyll build folder
+_site/
+
+# Jekyll cache folder
+.jekyll-cache/
+
+# Gem files
+Gemfile.lock
+Gemfile
+
+# Node modules
+node_modules/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
