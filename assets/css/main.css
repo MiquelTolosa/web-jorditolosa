@@ -2123,7 +2123,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-color: black;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2400,8 +2400,8 @@
 	.style1 .container{
 		margin-bottom: 0;
 		margin-top: 20px;
-		padding-left: 70px;
-		padding-right: 70px;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
 	.style1 .container img{
 		width: 100%;
@@ -2413,6 +2413,11 @@
 
 	#main section:first-of-type {
 		padding-top: 2em;
+	}
+
+	#main h2 {
+		margin-top: 2em;
+		font-size: 35px;
 	}
 
 /* Footer */
@@ -2836,10 +2841,10 @@
 				transition: transform 0.5s ease;
 				display: block;
 				height: 44px;
-				left: 0;
+				right: 0;
 				position: fixed;
 				top: 0;
-				width: 100%;
+				width: 75px;
 				z-index: 10001;
 			}
 
@@ -2920,7 +2925,7 @@
 					z-index: 1;
 					display: block;
 					text-decoration: none;
-					padding: 0.5em;
+					padding: 1em;
 					color: #ddd;
 					border: 0;
 					border-top: dotted 1px rgba(255, 255, 255, 0.05);
@@ -2988,7 +2993,7 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				padding: 1em 0em 1em 0em;
 			}
 
 		/* Header */
@@ -3019,7 +3024,7 @@
 
 			body.homepage #header {
 				min-height: 0;
-				padding: 5.5em 0 5em 0;
+				padding: 2.5em 0 2em 0;
 				height: auto;
 			}
 
@@ -3053,6 +3058,9 @@
 
 			#main > header {
 				text-align: center;
+			}
+			#main h2 {
+				margin-top: 0em;
 			}
 
 		/* Footer */
