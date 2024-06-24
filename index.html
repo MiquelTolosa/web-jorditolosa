@@ -8,16 +8,16 @@ title: Jordi Tolosa
 
 <section class="carousel">
     <div class="reel">
-        {% assign works = site.data.works %}
-        {% for item in works %}
+        {% assign categories = site.data.categories %}
+        {% for cat in categories %}
             <article>
-                <a class="image featured" href="categories/{{ item.url }}">
-                <img alt="" loading="lazy" src="images/categories/{{ item.image }}"/>
+                <a class="image featured" href="categories/{{ cat.url }}">
+                <img alt="" loading="lazy" src="images/categories/{{ cat.image }}"/>
                 </a>
                 <header>
                     <h3>
-                        <a href="categories/{{ item.url }}">
-                            {{ item.title }}
+                        <a href="categories/{{ cat.url }}">
+                            {{ cat.title }}
                         </a>
                     </h3>
                 </header>

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Perturbare",
+        "image": "perturbare.jpg",
+        "link": "1perturbare.html"
+    },
+    {
+        "title": "S.T.",
+        "image": "cranis1.jpg",
+        "link": "2cranis.html"
+    },
+    {
+        "title": "Autorretrato",
+        "image": "autorretrato.jpg",
+        "link": "3autorretrato.html"
+    },
+    {
+        "title": "Cultura Barbarie",
+        "image": "5.jpg",
+        "link": "4cultura_barbarie.html"
+    },
+    {
+        "title": "Barbarie",
+        "image": "barb.jpg",
+        "link": "5barbarie.html"
+    },
+    {
+        "title": "soledad",
+        "image": "soledad1.jpg",
+        "link": "6soledad.html"
+    },
+    {
+        "title": "Grasa",
+        "image": "grasa0.jpg",
+        "link": "7grasa.html"
+    },
+    {
+        "title": "S.T.",
+        "image": "peus.jpg",
+        "link": "8peus.html"
+    },
+    {
+        "title": "Crime",
+        "image": "crime.jpg",
+        "link": "9crime.html"
+    },
+    {
+        "title": "S.T.",
+        "image": "dibuixferro.jpg",
+        "link": "10dibuix_ferro.html"
+    }
+]

@@ -1,145 +1,24 @@
 ---
-layout: basic
-title: Me and other - Jordi Tolosa
+layout: category
+title: Me and other
+quote_author: J.L. Borges
+quote_text: Centuries of centuries and only in the present the events occur; countless men in the air, on the land and the sea, and everything that happens happens to me ...
+url_prefix: ../work/me_and_other
+img_prefix: ../images/works/me_and_other
 ---
-   <div class="wrapper style1">
-    <div class="container">
-     <article class="special" id="main">
+{% assign works = site.data.me_and_other %}
+{% for work in works %}
+   <article class="4u 12u(mobile) special">
+      <a class="image featured" href="{{ page.url_prefix }}/{{ work.link }}">
+         <img alt="" loading="lazy" src="{{ page.img_prefix }}/{{ work.image }}"/>
+      </a>
       <header>
-       <h2>
-        Me and other
-       </h2>
+         <h3>
+            <a href="{{ page.url_prefix }}/{{ work.link }}">
+               {{ work.title }}
+            </a>
+         </h3>
       </header>
-      <p>
-       <br/>
-       Centuries of centuries and only in the present the events occur; countless men in the air, on the land and the sea, and everything that happens happens to me ...
-      </p>
-      <p class="nomCita">
-       J.L. Borges
-      </p>
-     </article>
-     <div class="row mt-30 cat_works">
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/1perturbare.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/perturbare.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/1perturbare.html">
-          Perturbare
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/2cranis.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/cranis1.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/2cranis.html">
-          S.T.
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/3autorretrato.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/autorretrato.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/3autorretrato.html">
-          Autorretrato
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/4cultura_barbarie.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/5.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/4cultura_barbarie.html">
-          Cultura Barbarie
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/5barbarie.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/barb.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/5barbarie.html">
-          Barbarie
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/6soledad.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/soledad1.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/6soledad.html">
-          soledad
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/7grasa.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/grasa0.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/7grasa.html">
-          Grasa
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/8peus.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/peus.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/8peus.html">
-          S.T.
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/9crime.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/crime.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/9crime.html">
-          Crime
-         </a>
-        </h3>
-       </header>
-      </article>
-      <article class="4u 12u(mobile) special">
-       <a class="image featured" href="../work/me_and_other/10dibuix_ferro.html">
-        <img alt="" loading="lazy" src="../images/works/me_and_other/dibuixferro.jpg"/>
-       </a>
-       <header>
-        <h3>
-         <a href="../work/me_and_other/10dibuix_ferro.html">
-          S.T.
-         </a>
-        </h3>
-       </header>
-      </article>
-     </div>
-    </div>
-   </div>
- 
+   </article>
+
+{% endfor %}
