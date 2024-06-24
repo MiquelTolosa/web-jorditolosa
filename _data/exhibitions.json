@@ -1,0 +1,56 @@
+[
+    {
+        "url": "news/between_death.html",
+        "image": "between_death.jpg",
+        "title": "Entre el no res i la mort",
+        "date": "2020"
+    },
+    {
+        "url": "news/silencis.html",
+        "image": "silencis_portada.jpg",
+        "title": "Silenci/s",
+        "date": "2017"
+    },
+    {
+        "url": "news/utopia_markets.html",
+        "image": "utopia_markets.jpg",
+        "title": "UTOPIA MARKETS POESIA",
+        "date": "2017"
+    },
+    {
+        "url": "news/minus_ego.html",
+        "image": "Minus-Ego-portada-w.jpg",
+        "title": "Minus Ego",
+        "date": "7 Oct. 2016"
+    },
+    {
+        "url": "news/I.html",
+        "image": "I-portada.jpg",
+        "title": "I",
+        "date": "16 Sept. 2016"
+    },
+    {
+        "url": "news/paraules_i_coses.html",
+        "image": "paraules_i_coses.jpg",
+        "title": "Les paraules i les coses",
+        "date": "2016"
+    },
+    {
+        "url": "https://centredartmaristany.wordpress.com/2016/02/12/nova-proposta-expositiva/",
+        "image": "me_and_my_eternity.jpg",
+        "title": "Me and my eternity",
+        "date": "2016"
+    },
+    {
+        "url": "news/tv2.html",
+        "image": "tv2.jpg",
+        "title": "TV2 [Short Documentary]",
+        "date": "2015"
+    },
+    {
+        "url": "news/espai_temps_jo.html",
+        "image": "cardedeu.jpg",
+        "title": "Solo exhibition",
+        "date": "2014-2015"
+    }
+]

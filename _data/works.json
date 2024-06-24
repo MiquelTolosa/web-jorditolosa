@@ -1,0 +1,42 @@
+[
+    {
+        "url": "me_and_other.html",
+        "image": "1meand.jpg",
+        "title": "Me and Other"
+    },
+    {
+        "url": "death_life.html",
+        "image": "2deathlife.jpg",
+        "title": "Death - Life"
+    },
+    {
+        "url": "space_time.html",
+        "image": "3spacea.jpg",
+        "title": "Space Time"
+    },
+    {
+        "url": "dreams.html",
+        "image": "4dreams.jpg",
+        "title": "Dreams"
+    },
+    {
+        "url": "words_and_things.html",
+        "image": "5words.jpg",
+        "title": "Words and Things"
+    },
+    {
+        "url": "boxes_and_books.html",
+        "image": "6books.jpg",
+        "title": "Boxes and books"
+    },
+    {
+        "url": "projects.html",
+        "image": "8projects.jpg",
+        "title": "Projects"
+    },
+    {
+        "url": "collaborations.html",
+        "image": "9colaborations.jpg",
+        "title": "Collaborations"
+    }
+]
