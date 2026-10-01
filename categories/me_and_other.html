@@ -1,24 +1,7 @@
 ---
 layout: category
 title: Me and other
+heading: Me and other
+quote_text: "Centuries of centuries and only in the present the events occur; countless men in the air, on the land and the sea, and everything that happens happens to me ..."
 quote_author: J.L. Borges
-quote_text: Centuries of centuries and only in the present the events occur; countless men in the air, on the land and the sea, and everything that happens happens to me ...
-url_prefix: ../work/me_and_other
-img_prefix: ../images/works/me_and_other
 ---
-{% assign works = site.data.me_and_other %}
-{% for work in works %}
-   <article class="4u 12u(mobile) special">
-      <a class="image featured" href="{{ page.url_prefix }}/{{ work.link }}">
-         <img alt="" loading="lazy" src="{{ page.img_prefix }}/{{ work.image }}"/>
-      </a>
-      <header>
-         <h3>
-            <a href="{{ page.url_prefix }}/{{ work.link }}">
-               {{ work.title }}
-            </a>
-         </h3>
-      </header>
-   </article>
-
-{% endfor %}

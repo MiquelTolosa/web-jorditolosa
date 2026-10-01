@@ -1,25 +1,34 @@
 ---
 layout: basic
 ---
+{% assign slug = page.path | split: "/" | last | remove: ".html" %}
 <div class="wrapper style1">
     <div class="container">
-     <article class="special" id="main">
-      <header>
-       <h2>
-        {{ page.title }}
-       </h2>
-      </header>
-      <p>
-       <br/>
-       {{ page.quote_text }}
-      </p>
-      <p class="nomCita">
-        {{ page.quote_author }}
-      </p>
-     </article>
-     <div class="row mt-30 cat_works">
-        {{ content }}
-     </div>
+        <article class="special" id="main">
+            <header>
+                <h2>{{ page.heading }}</h2>
+            </header>
+            {% if page.quote_text %}
+            <p>
+                <br/>
+                {{ page.quote_text }}
+            </p>
+            {% endif %}
+            {% if page.quote_author %}
+            <p class="nomCita">{{ page.quote_author }}</p>
+            {% endif %}
+        </article>
+        <div class="row mt-30 cat_works">
+            {% for work in site.data[slug] %}
+            <article class="4u 12u(mobile) special">
+                <a class="image featured" href="{{ work.link }}">
+                    <img alt="" loading="lazy" src="{{ work.image }}"/>
+                </a>
+                <header>
+                    <h3><a href="{{ work.link }}">{{ work.title }}</a></h3>
+                </header>
+            </article>
+            {% endfor %}
+        </div>
     </div>
 </div>
- 

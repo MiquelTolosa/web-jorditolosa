@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Four Horizons",
+        "image": "/images/works/collaborations/fourhorizons.jpg",
+        "link": "/work/collaborations/fourth.html"
+    },
+    {
+        "title": "CAPS.A.",
+        "image": "/images/works/collaborations/capsa.jpg",
+        "link": "/work/collaborations/caspa.html"
+    },
+    {
+        "title": "Geografies del Somni",
+        "image": "/images/works/collaborations/somnis1.jpg",
+        "link": "/work/collaborations/Lola.html"
+    },
+    {
+        "title": "Tiempo visible",
+        "image": "/images/works/collaborations/llibre1.jpg",
+        "link": "/work/collaborations/tiempo.html"
+    },
+    {
+        "title": "Sentits",
+        "image": "/images/works/collaborations/sentits1.jpg",
+        "link": "/work/collaborations/fundacio.html"
+    }
+]
